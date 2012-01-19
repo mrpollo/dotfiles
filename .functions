@@ -30,7 +30,6 @@ function json() {
 }
 
 # All the dig info
-<<<<<<< HEAD
 digga() {
   dig +nocmd "$1" any +multiline +noall +answer
 }
@@ -46,7 +45,7 @@ function ff {
 
 # Get into the result of `ff`
 function cdff { cd "`ff $@`"; };
-=======
+
 function digga() {
 	dig +nocmd "$1" any +multiline +noall +answer
 }
@@ -62,4 +61,3 @@ function unidecode() {
 	perl -e "binmode(STDOUT, ':utf8'); print \"$@\""
 	echo # newline
 }
->>>>>>> 27c2285c59d72c01b69d4e57e5cfc78130f2370d
